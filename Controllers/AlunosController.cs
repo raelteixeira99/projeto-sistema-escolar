@@ -21,6 +21,7 @@ namespace SistemaEscolar.Controllers
             return View(list);
         }
 
+// exemplo
         public IActionResult Create() => View();
 
         [HttpPost]
