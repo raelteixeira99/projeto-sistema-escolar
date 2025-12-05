@@ -1,0 +1,7 @@
+@model SistemaEscolar.Models.Turma
+<h2>Excluir Turma</h2>
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id"/>
+    <p>Excluir turma <strong>@Model.Codigo</strong>?</p>
+    <button class="btn btn-danger">Excluir</button> <a class="btn" href="@Url.Action("Index")">Cancelar</a>
+</form>

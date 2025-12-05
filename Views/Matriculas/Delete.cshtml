@@ -1,0 +1,7 @@
+@model SistemaEscolar.Models.Matricula
+<h2>Excluir Matrícula</h2>
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id"/>
+    <p>Excluir matrícula do aluno <strong>@Model.Aluno?.Nome</strong> na turma <strong>@Model.Turma?.Codigo</strong>?</p>
+    <button class="btn btn-danger">Excluir</button> <a class="btn" href="@Url.Action("Index")">Cancelar</a>
+</form>

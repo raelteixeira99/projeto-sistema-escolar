@@ -1,0 +1,8 @@
+@model SistemaEscolar.Models.Turma
+<h2>Detalhes Turma</h2>
+<p><strong>ID:</strong> @Model.Id</p>
+<p><strong>Código:</strong> @Model.Codigo</p>
+<p><strong>Curso:</strong> @Model.Curso?.Nome</p>
+<p><strong>Professor:</strong> @Model.Professor?.Nome</p>
+<p><strong>Início:</strong> @Model.Inicio.ToString("yyyy-MM-dd")</p>
+<a class="btn" href="@Url.Action("Index")">Voltar</a>

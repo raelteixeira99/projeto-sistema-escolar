@@ -1,0 +1,7 @@
+@model IEnumerable<SistemaEscolar.Models.Matricula>
+@{ ViewData["Title"] = "Matrículas"; }
+<h2>Matrículas</h2>
+<a class="btn" href="@Url.Action("Create")">Nova Matrícula</a>
+<table class="table"><thead><tr><th>ID</th><th>Aluno</th><th>Turma</th><th>Data</th><th>Situação</th><th></th></tr></thead><tbody>
+@foreach(var m in Model){<tr><td>@m.Id</td><td>@m.Aluno?.Nome</td><td>@m.Turma?.Codigo</td><td>@m.DataMatricula.ToString("yyyy-MM-dd")</td><td>@m.Situacao</td><td><a href="@Url.Action("Details", new { id = m.Id })">Ver</a> | <a href="@Url.Action("Delete", new { id = m.Id })">Excluir</a></td></tr>}
+</tbody></table>

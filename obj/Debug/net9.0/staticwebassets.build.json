@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "AOgJRucSOpOqbE2p17X3HdzsG09fpHRJgf5teZ/VEr8=",
+  "Source": "SistemaEscolar_NET9",
+  "BasePath": "_content/SistemaEscolar_NET9",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SistemaEscolar_NET9\\wwwroot",
+      "Source": "SistemaEscolar_NET9",
+      "ContentRoot": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\wwwroot\\",
+      "BasePath": "_content/SistemaEscolar_NET9",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\obj\\Debug\\net9.0\\compressed\\qdm4yuiy52-iq71vke7tj.gz",
+      "SourceId": "SistemaEscolar_NET9",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaEscolar_NET9",
+      "RelativePath": "css/site#[.{fingerprint=iq71vke7tj}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\wwwroot\\css\\site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ge56646uvm",
+      "Integrity": "KGn6pd/r2XDDyYrScnKSrYtYGL6OtMpnQrHbMptAWQQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\wwwroot\\css\\site.css",
+      "SourceId": "SistemaEscolar_NET9",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\wwwroot\\",
+      "BasePath": "_content/SistemaEscolar_NET9",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iq71vke7tj",
+      "Integrity": "aswvj4IkAOx8k2k83VTJuc/O+gxCf/l+9x95n9ETvcY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\obj\\Debug\\net9.0\\compressed\\qdm4yuiy52-iq71vke7tj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002832861190"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "352"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KGn6pd/r2XDDyYrScnKSrYtYGL6OtMpnQrHbMptAWQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Dec 2025 00:43:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aswvj4IkAOx8k2k83VTJuc/O+gxCf/l+9x95n9ETvcY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aswvj4IkAOx8k2k83VTJuc/O+gxCf/l+9x95n9ETvcY="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aswvj4IkAOx8k2k83VTJuc/O+gxCf/l+9x95n9ETvcY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Dec 2025 00:43:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aswvj4IkAOx8k2k83VTJuc/O+gxCf/l+9x95n9ETvcY="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\obj\\Debug\\net9.0\\compressed\\qdm4yuiy52-iq71vke7tj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "352"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KGn6pd/r2XDDyYrScnKSrYtYGL6OtMpnQrHbMptAWQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Dec 2025 00:43:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KGn6pd/r2XDDyYrScnKSrYtYGL6OtMpnQrHbMptAWQQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.iq71vke7tj.css",
+      "AssetFile": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\obj\\Debug\\net9.0\\compressed\\qdm4yuiy52-iq71vke7tj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002832861190"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "352"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KGn6pd/r2XDDyYrScnKSrYtYGL6OtMpnQrHbMptAWQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Dec 2025 00:43:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aswvj4IkAOx8k2k83VTJuc/O+gxCf/l+9x95n9ETvcY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iq71vke7tj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aswvj4IkAOx8k2k83VTJuc/O+gxCf/l+9x95n9ETvcY="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.iq71vke7tj.css",
+      "AssetFile": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aswvj4IkAOx8k2k83VTJuc/O+gxCf/l+9x95n9ETvcY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Dec 2025 00:43:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iq71vke7tj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aswvj4IkAOx8k2k83VTJuc/O+gxCf/l+9x95n9ETvcY="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.iq71vke7tj.css.gz",
+      "AssetFile": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\obj\\Debug\\net9.0\\compressed\\qdm4yuiy52-iq71vke7tj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "352"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KGn6pd/r2XDDyYrScnKSrYtYGL6OtMpnQrHbMptAWQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Dec 2025 00:43:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iq71vke7tj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KGn6pd/r2XDDyYrScnKSrYtYGL6OtMpnQrHbMptAWQQ="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+@model SistemaEscolar.Models.Aluno
+<h2>Detalhes do Aluno</h2>
+<dl><dt>Nome</dt><dd>@Model.Nome</dd><dt>Email</dt><dd>@Model.Email</dd><dt>Data Nasc.</dt><dd>@Model.DataNascimento?.ToString("yyyy-MM-dd")</dd></dl>
+<a class="btn" href="@Url.Action("Index")">Voltar</a>

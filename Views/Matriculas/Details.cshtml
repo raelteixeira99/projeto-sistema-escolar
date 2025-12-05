@@ -1,0 +1,8 @@
+@model SistemaEscolar.Models.Matricula
+<h2>Detalhes Matrícula</h2>
+<p><strong>ID:</strong> @Model.Id</p>
+<p><strong>Aluno:</strong> @Model.Aluno?.Nome</p>
+<p><strong>Turma:</strong> @Model.Turma?.Codigo</p>
+<p><strong>Data:</strong> @Model.DataMatricula.ToString("yyyy-MM-dd")</p>
+<p><strong>Situação:</strong> @Model.Situacao</p>
+<a class="btn" href="@Url.Action("Index")">Voltar</a>

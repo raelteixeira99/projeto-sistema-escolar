@@ -1,0 +1,8 @@
+@model SistemaEscolar.Models.Aluno
+<h2>Excluir Aluno</h2>
+<h4>Tem certeza que deseja excluir <strong>@Model.Nome</strong>?</h4>
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn">Excluir</button>
+    <a class="btn" href="@Url.Action("Index")">Cancelar</a>
+</form>

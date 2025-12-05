@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SistemaEscolar_NET9.props" />
+</Project>

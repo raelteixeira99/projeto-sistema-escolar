@@ -1,0 +1,7 @@
+@model IEnumerable<SistemaEscolar.Models.Curso>
+@{ ViewData["Title"] = "Cursos"; }
+<h2>Cursos</h2>
+<a class="btn" href="@Url.Action("Create")">Novo Curso</a>
+<table class="table"><thead><tr><th>ID</th><th>Nome</th><th>Duração</th><th></th></tr></thead><tbody>
+@foreach(var c in Model){<tr><td>@c.Id</td><td>@c.Nome</td><td>@c.DuracaoSemestres</td><td><a href="@Url.Action("Details", new { id = c.Id })">Ver</a> | <a href="@Url.Action("Edit", new { id = c.Id })">Editar</a> | <a href="@Url.Action("Delete", new { id = c.Id })">Excluir</a></td></tr>}
+</tbody></table>
