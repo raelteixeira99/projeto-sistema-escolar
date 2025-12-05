@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\SistemaEscolar_NET9.csproj": {}
+    "C:\\Users\\melissa.fsantos11\\Desktop\\Back End\\projeto-sistema-escolar\\SistemaEscolar_NET9.csproj": {}
   },
   "projects": {
-    "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\SistemaEscolar_NET9.csproj": {
+    "C:\\Users\\melissa.fsantos11\\Desktop\\Back End\\projeto-sistema-escolar\\SistemaEscolar_NET9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\SistemaEscolar_NET9.csproj",
+        "projectUniqueName": "C:\\Users\\melissa.fsantos11\\Desktop\\Back End\\projeto-sistema-escolar\\SistemaEscolar_NET9.csproj",
         "projectName": "SistemaEscolar_NET9",
-        "projectPath": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\SistemaEscolar_NET9.csproj",
-        "packagesPath": "C:\\Users\\israel.tsilva3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\israel.tsilva3\\Documents\\SistemaEscolar_NET9_BootstrapSeed\\obj\\",
+        "projectPath": "C:\\Users\\melissa.fsantos11\\Desktop\\Back End\\projeto-sistema-escolar\\SistemaEscolar_NET9.csproj",
+        "packagesPath": "C:\\Users\\melissa.fsantos11\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\melissa.fsantos11\\Desktop\\Back End\\projeto-sistema-escolar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\israel.tsilva3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\melissa.fsantos11\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
