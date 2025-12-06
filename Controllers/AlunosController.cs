@@ -28,7 +28,7 @@ namespace SistemaEscolar.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Aluno aluno)
         {
-            if (!ModelState.IsValid) return View(aluno);
+            if (string.IsNullOrEmpty(aluno.Nome) || string.IsNullOrEmpty(aluno.Email) || string.IsNullOrEmpty(aluno.DataNascimento.ToString())) return View(aluno);
             _context.Alunos.Add(aluno);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
